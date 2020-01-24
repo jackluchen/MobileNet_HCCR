@@ -2,13 +2,11 @@
 In the ﬁnal test, our model predicted on a dataset which contains 9000 images in total, 
 with 3000 images testing on robustness on rotation, ﬂip and resize respectively. 
 (The rotation angle is between -25 degrees and 25 degrees,the scale of resizing width and height is between 0.5 to 2.5.) 
-The accuracy of our model on the whole dataset is 80.57%.
 
-82.13% on rotation, 
-
-93.60% on ﬂip,
-
-only 65.97% on the resized image set.
++ The accuracy of our model on the whole dataset is 80.57%.
+  + 82.13% on rotation, 
+  + 93.60% on ﬂip,
+  + only 65.97% on the resized image set.
 
 ## Analysis
 The main reason of the low accuracy on resized data set is lack of training data, which trace back to the data augmentation process. 
